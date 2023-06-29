@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de email</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="send1">
+            <img src="img/Snapchat-1487714940~2_063041.jpg">
+            <h2 id="Send">engola885@gmail.com</h2>
+        </div>
+
+        <h2>Envie o seu email</h2>
+
+        <form action="https://api.staticforms.xyz/submit" method="POST">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <label>Email</label>
+            <input type="text" name="email" placeholder="Digite seu email" required>
+            <label>Mensagem</label>
+            <textarea type="message" name="message" cols="30" rows="10" placeholder="Escreva a sua mensagem aqui" required></textarea>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="accessKey" value="7fb39a9b-3eb1-427f-983f-0c3828ef6b65">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/sucesso.html">
+            <hr>
+            <h3> <br> Feito por: Eduardo Ngola</h3>
+
+        </form>
+    </section>
+</body>
+
+</html>
